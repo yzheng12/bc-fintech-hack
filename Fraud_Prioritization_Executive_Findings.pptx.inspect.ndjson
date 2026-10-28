@@ -1,0 +1,220 @@
+{"kind":"deck","id":"pr/wwlncj","name":"Deck"}
+{"kind":"layout","layoutId":"f7dc9676-af46-4e20-959f-eed886555588","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"22d68af9-b289-4010-92ef-bee6a289fa92","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/qysrk9","slide":1,"title":"FRAUD PRIORITIZATION","textShapes":7}
+{"kind":"textbox","id":"sh/na5kri90","slide":1,"text":"FRAUD PRIORITIZATION","textPreview":"FRAUD PRIORITIZATION","textChars":20,"textLines":1,"bbox":[72,84,500,30]}
+{"kind":"textbox","id":"sh/obelknql","slide":1,"text":"Fraud Prioritization","textPreview":"Fraud Prioritization","textChars":20,"textLines":1,"bbox":[72,140,700,78]}
+{"kind":"textbox","id":"sh/9wn2tsr6","slide":1,"text":"From broad rules to precise investigation queues","textPreview":"From broad rules to precise investigation queues","textChars":48,"textLines":1,"bbox":[72,245,700,35]}
+{"kind":"shape","id":"sh/axg3mx8r","slide":1,"bbox":[72,385,162,6]}
+{"kind":"textbox","id":"sh/bypkv29c","slide":1,"text":"Executive decision deck","textPreview":"Executive decision deck","textChars":23,"textLines":1,"bbox":[72,412,300,28]}
+{"kind":"shape","id":"sh/wzylo7qh","slide":1,"bbox":[830,100,350,470]}
+{"kind":"textbox","id":"sh/x072xc72","slide":1,"text":"1%","textPreview":"1%","textChars":2,"textLines":1,"bbox":[874,150,255,95]}
+{"kind":"textbox","id":"sh/y1g3qx8n","slide":1,"text":"of transactions can be reviewed","textPreview":"of transactions can be reviewed","textChars":31,"textLines":1,"bbox":[874,255,255,40]}
+{"kind":"shape","id":"sh/j2pkz2p8","slide":1,"bbox":[883,326,245,1]}
+{"kind":"textbox","id":"sh/redofa5w","slide":1,"text":"The decision is not simply\n“is this fraud?”\n\nIt is “what should we review first?”","textPreview":"The decision is not simply | “is this fraud?” |  | It is “what should we review first?”","textChars":81,"textLines":4,"bbox":[874,355,255,125]}
+{"kind":"notes","id":"nt/qysrk9","slide":1,"text":"[Sources] Analysis: Phase2_Fraud_Prioritization.ipynb (user-provided); no external sources.\nOpening: frame this as a resource-allocation problem, not a generic classification exercise."}
+{"kind":"slide","id":"sl/shzhyu","slide":2,"title":"EXECUTIVE DECISION","textShapes":15}
+{"kind":"textbox","id":"sh/3q1sn2hg","slide":2,"text":"EXECUTIVE DECISION","textPreview":"EXECUTIVE DECISION","textChars":18,"textLines":1,"bbox":[72,42,420,24]}
+{"kind":"textbox","id":"sh/4ratw7i1","slide":2,"text":"Approve ML prioritization — deployed as Strategy A","textPreview":"Approve ML prioritization — deployed as Strategy A","textChars":50,"textLines":1,"bbox":[72,76,1136,54]}
+{"kind":"textbox","id":"sh/psjapczm","slide":2,"text":"Probability-ranked Logistic Regression materially improves case capture at the same investigator capacity.","textPreview":"Probability-ranked Logistic Regression materially improves case capture at the same investigator capacity.","textChars":106,"textLines":1,"bbox":[72,136,1080,34]}
+{"kind":"shape","id":"sh/qtsbyx0r","slide":2,"bbox":[72,184,1136,1]}
+{"kind":"shape","id":"sh/ru1sr2hc","slide":2,"bbox":[72,230,336,160]}
+{"kind":"textbox","id":"sh/cvat07ix","slide":2,"text":"98.8%","textPreview":"98.8%","textChars":5,"textLines":1,"bbox":[92,247,296,46]}
+{"kind":"textbox","id":"sh/dw3atczi","slide":2,"text":"Fraud cases captured","textPreview":"Fraud cases captured","textChars":20,"textLines":1,"bbox":[92,299,296,38]}
+{"kind":"textbox","id":"sh/6x8rmd0n","slide":2,"text":"vs. 32.5% with rule baseline","textPreview":"vs. 32.5% with rule baseline","textChars":28,"textLines":1,"bbox":[92,355,296,20]}
+{"kind":"shape","id":"sh/7yhsfih8","slide":2,"bbox":[444,230,336,160]}
+{"kind":"textbox","id":"sh/v6xkjah4","slide":2,"text":"97.9%","textPreview":"97.9%","textChars":5,"textLines":1,"bbox":[464,247,296,46]}
+{"kind":"textbox","id":"sh/u5o3a5gj","slide":2,"text":"Fraud value captured","textPreview":"Fraud value captured","textChars":20,"textLines":1,"bbox":[464,299,296,38]}
+{"kind":"textbox","id":"sh/h8f2l0za","slide":2,"text":"vs. 76.3% with rule baseline","textPreview":"vs. 76.3% with rule baseline","textChars":28,"textLines":1,"bbox":[464,355,296,20]}
+{"kind":"shape","id":"sh/g76lcfyp","slide":2,"bbox":[816,230,336,160]}
+{"kind":"textbox","id":"sh/72dkfqh8","slide":2,"text":"7.9","textPreview":"7.9","textChars":3,"textLines":1,"bbox":[836,247,296,46]}
+{"kind":"textbox","id":"sh/61436lgn","slide":2,"text":"Reviews per fraud detected","textPreview":"Reviews per fraud detected","textChars":26,"textLines":1,"bbox":[836,299,296,38]}
+{"kind":"textbox","id":"sh/t4f2h0zy","slide":2,"text":"vs. 24.0 with rule baseline","textPreview":"vs. 24.0 with rule baseline","textChars":27,"textLines":1,"bbox":[836,355,296,20]}
+{"kind":"shape","id":"sh/836l8vyd","slide":2,"bbox":[72,440,1080,140]}
+{"kind":"textbox","id":"sh/jedkbqhw","slide":2,"text":"Recommendation","textPreview":"Recommendation","textChars":14,"textLines":1,"bbox":[98,466,190,26]}
+{"kind":"textbox","id":"sh/yd432lgb","slide":2,"text":"Adopt Strategy A: rank the top 1% of transactions by P(Fraud), retain the Phase 1 rule as a guardrail, and monitor performance as new feedback arrives.","textPreview":"Adopt Strategy A: rank the top 1% of transactions by P(Fraud), retain the Phase 1 rule as a guardrail, and monitor performance as new fee...","textChars":151,"textLines":1,"bbox":[98,506,1000,54]}
+{"kind":"textbox","id":"sh/m9k3elk3","slide":2,"text":"Fraud prioritization  |  Executive findings  |  02","textPreview":"Fraud prioritization  |  Executive findings  |  02","textChars":50,"textLines":1,"bbox":[72,684,600,18]}
+{"kind":"notes","id":"nt/shzhyu","slide":2,"text":"[Sources] Analysis: Phase2_Fraud_Prioritization.ipynb (user-provided); no external sources.\nDecision metrics are held-out test results; workload is unchanged at a fixed top-1% investigation queue."}
+{"kind":"slide","id":"sl/msztkm","slide":3,"title":"1. DESCRIBE, ALIGN & INVESTIGATE","textShapes":15}
+{"kind":"textbox","id":"sh/03edszmp","slide":3,"text":"1. DESCRIBE, ALIGN & INVESTIGATE","textPreview":"1. DESCRIBE, ALIGN & INVESTIGATE","textChars":32,"textLines":1,"bbox":[72,42,420,24]}
+{"kind":"textbox","id":"sh/z2lwju5k","slide":3,"text":"A 1% review queue turns fraud detection into ranking","textPreview":"A 1% review queue turns fraud detection into ranking","textChars":52,"textLines":1,"bbox":[72,76,1136,54]}
+{"kind":"textbox","id":"sh/e1cvqpoz","slide":3,"text":"We must place the highest-risk transactions at the top of a fixed 1% queue.","textPreview":"We must place the highest-risk transactions at the top of a fixed 1% queue.","textChars":75,"textLines":1,"bbox":[72,136,1080,34]}
+{"kind":"shape","id":"sh/d03ehkne","slide":3,"bbox":[72,184,1136,1]}
+{"kind":"shape","id":"sh/czudof6t","slide":3,"bbox":[72,230,470,310]}
+{"kind":"textbox","id":"sh/rylwfa58","slide":3,"text":"The operating constraint","textPreview":"The operating constraint","textChars":24,"textLines":1,"bbox":[104,263,330,30]}
+{"kind":"textbox","id":"sh/qxcvm5on","slide":3,"text":"Investigators can review only ~1% of all transactions.","textPreview":"Investigators can review only ~1% of all transactions.","textChars":54,"textLines":1,"bbox":[104,315,375,54]}
+{"kind":"textbox","id":"sh/xw7etoni","slide":3,"text":"A useful solution therefore ranks risk—not merely labels transactions as fraud or legitimate.","textPreview":"A useful solution therefore ranks risk—not merely labels transactions as fraud or legitimate.","textChars":93,"textLines":1,"bbox":[104,394,370,64]}
+{"kind":"shape","id":"sh/wvyxkjmx","slide":3,"bbox":[610,230,250,150]}
+{"kind":"textbox","id":"sh/694zqtgn","slide":3,"text":"509k","textPreview":"509k","textChars":4,"textLines":1,"bbox":[630,247,210,46]}
+{"kind":"textbox","id":"sh/rad0zyh8","slide":3,"text":"labeled training transactions","textPreview":"labeled training transactions","textChars":29,"textLines":1,"bbox":[630,299,210,38]}
+{"kind":"shape","id":"sh/sbm1s3yt","slide":3,"bbox":[890,230,250,150]}
+{"kind":"textbox","id":"sh/tcvi18ze","slide":3,"text":"654","textPreview":"654","textChars":3,"textLines":1,"bbox":[910,247,210,46]}
+{"kind":"textbox","id":"sh/i5kzmtgr","slide":3,"text":"fraud cases in training","textPreview":"fraud cases in training","textChars":23,"textLines":1,"bbox":[910,299,210,38]}
+{"kind":"shape","id":"sh/j6t0vyhc","slide":3,"bbox":[610,410,250,150]}
+{"kind":"textbox","id":"sh/472hojyh","slide":3,"text":"0.13%","textPreview":"0.13%","textChars":5,"textLines":1,"bbox":[630,427,210,46]}
+{"kind":"textbox","id":"sh/58bixoz2","slide":3,"text":"underlying fraud rate","textPreview":"underlying fraud rate","textChars":21,"textLines":1,"bbox":[630,479,210,38]}
+{"kind":"shape","id":"sh/21ojydgv","slide":3,"bbox":[890,410,250,150]}
+{"kind":"textbox","id":"sh/n2x07ixg","slide":3,"text":"1%","textPreview":"1%","textChars":2,"textLines":1,"bbox":[910,427,210,46]}
+{"kind":"textbox","id":"sh/zmpwzaxs","slide":3,"text":"available review queue","textPreview":"available review queue","textChars":22,"textLines":1,"bbox":[910,479,210,38]}
+{"kind":"textbox","id":"sh/ylgfq5w7","slide":3,"text":"Fraud prioritization  |  Executive findings  |  03","textPreview":"Fraud prioritization  |  Executive findings  |  03","textChars":50,"textLines":1,"bbox":[72,684,600,18]}
+{"kind":"notes","id":"nt/msztkm","slide":3,"text":"[Sources] Analysis: Phase2_Fraud_Prioritization.ipynb (user-provided); no external sources.\nTraining set: 509,009 rows, 654 fraud cases, 0.1285% fraud rate. Accuracy is misleading: predicting every transaction legitimate would be 99.8715% accurate while detecting no fraud."}
+{"kind":"slide","id":"sl/bj4yuz","slide":4,"title":"1. DESCRIBE, ALIGN & INVESTIGATE","textShapes":11}
+{"kind":"textbox","id":"sh/21ovedcf","slide":4,"text":"1. DESCRIBE, ALIGN & INVESTIGATE","textPreview":"1. DESCRIBE, ALIGN & INVESTIGATE","textChars":32,"textLines":1,"bbox":[72,42,420,24]}
+{"kind":"textbox","id":"sh/p4zep8vq","slide":4,"text":"Rules help—but cannot prioritize tightly enough","textPreview":"Rules help—but cannot prioritize tightly enough","textChars":47,"textLines":1,"bbox":[72,76,1136,54]}
+{"kind":"textbox","id":"sh/o3qdg3u5","slide":4,"text":"Fraud has a clear behavioral signature, but the signature is too broad for a 1% queue.","textPreview":"Fraud has a clear behavioral signature, but the signature is too broad for a 1% queue.","textChars":86,"textLines":1,"bbox":[72,136,1080,34]}
+{"kind":"shape","id":"sh/b6hwridw","slide":4,"bbox":[72,184,1136,1]}
+{"kind":"shape","id":"sh/a58vidcb","slide":4,"bbox":[72,225,515,360]}
+{"kind":"textbox","id":"sh/x8zetsv2","slide":4,"text":"Fraud rate by transaction type (basis points)","textPreview":"Fraud rate by transaction type (basis points)","textChars":45,"textLines":1,"bbox":[98,250,450,25]}
+{"kind":"shape","id":"sh/raxcfeds","slide":4,"bbox":[630,225,522,360]}
+{"kind":"textbox","id":"sh/q94v6tc7","slide":4,"text":"The rule signal is real but over-inclusive","textPreview":"The rule signal is real but over-inclusive","textChars":42,"textLines":1,"bbox":[660,250,440,25]}
+{"kind":"textbox","id":"sh/obqxofi1","slide":4,"text":"98.8%","textPreview":"98.8%","textChars":5,"textLines":1,"bbox":[662,313,130,40]}
+{"kind":"textbox","id":"sh/pczehkzm","slide":4,"text":"of fraud empties the sender balance","textPreview":"of fraud empties the sender balance","textChars":35,"textLines":1,"bbox":[800,321,290,25]}
+{"kind":"textbox","id":"sh/298fmp0v","slide":4,"text":"90.1%","textPreview":"90.1%","textChars":5,"textLines":1,"bbox":[662,374,130,40]}
+{"kind":"textbox","id":"sh/3ahwfahg","slide":4,"text":"of legitimate transfer/cash-out also does","textPreview":"of legitimate transfer/cash-out also does","textChars":41,"textLines":1,"bbox":[800,382,300,25]}
+{"kind":"shape","id":"sh/cfqxszid","slide":4,"bbox":[662,435,420,1]}
+{"kind":"textbox","id":"sh/dgjyl4zi","slide":4,"text":"The strongest Phase 1 rule matches 18.7% of all transactions—nearly 19× the review capacity.","textPreview":"The strongest Phase 1 rule matches 18.7% of all transactions—nearly 19× the review capacity.","textChars":92,"textLines":1,"bbox":[662,465,430,52]}
+{"kind":"textbox","id":"sh/qd8fqp07","slide":4,"text":"Fraud prioritization  |  Executive findings  |  04","textPreview":"Fraud prioritization  |  Executive findings  |  04","textChars":50,"textLines":1,"bbox":[72,684,600,18]}
+{"kind":"chart","id":"ch/cbahsril","slide":4,"name":"","chartType":"bar","bbox":[100,295,420,230]}
+{"kind":"notes","id":"nt/bj4yuz","slide":4,"text":"[Sources] Analysis: Phase2_Fraud_Prioritization.ipynb (user-provided); no external sources.\nEDA: fraud exists only in TRANSFER (0.77%) and CASH_OUT (0.18%) in this data. Sender balance is fully emptied in 98.78% of fraud vs. 90.13% of legitimate transfer/cash-out. The Phase 1 rule matches 95,264/509,009 = 18.7%."}
+{"kind":"slide","id":"sl/rcmbx8","slide":5,"title":"1. DESCRIBE, ALIGN & INVESTIGATE","textShapes":19}
+{"kind":"textbox","id":"sh/a5szets7","slide":5,"text":"1. DESCRIBE, ALIGN & INVESTIGATE","textPreview":"1. DESCRIBE, ALIGN & INVESTIGATE","textChars":32,"textLines":1,"bbox":[72,42,420,24]}
+{"kind":"textbox","id":"sh/x8ji9ori","slide":5,"text":"ML turns rule signals into a precise review order","textPreview":"ML turns rule signals into a precise review order","textChars":49,"textLines":1,"bbox":[72,76,1136,54]}
+{"kind":"textbox","id":"sh/w7ahgjad","slide":5,"text":"The critical gap is not identifying risk patterns—it is separating the most suspicious cases within them.","textPreview":"The critical gap is not identifying risk patterns—it is separating the most suspicious cases within them.","textChars":105,"textLines":1,"bbox":[72,136,1080,34]}
+{"kind":"shape","id":"sh/nih03etg","slide":5,"bbox":[72,184,1136,1]}
+{"kind":"shape","id":"sh/mh8za9sv","slide":5,"bbox":[72,235,500,320]}
+{"kind":"textbox","id":"sh/94ji5obm","slide":5,"text":"Phase 1: rule-based screening","textPreview":"Phase 1: rule-based screening","textChars":29,"textLines":1,"bbox":[104,267,360,30]}
+{"kind":"textbox","id":"sh/o3qhcja1","slide":5,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[104,325,18,24]}
+{"kind":"textbox","id":"sh/7el0fi90","slide":5,"text":"Transparent and easy to audit","textPreview":"Transparent and easy to audit","textChars":29,"textLines":1,"bbox":[126,325,358,42]}
+{"kind":"textbox","id":"sh/6dcjmdsf","slide":5,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[104,375,18,24]}
+{"kind":"textbox","id":"sh/4jip8z6x","slide":5,"text":"Flags broad patterns: type + balance empty + prior balance","textPreview":"Flags broad patterns: type + balance empty + prior balance","textChars":58,"textLines":1,"bbox":[126,375,368,42]}
+{"kind":"textbox","id":"sh/5kr61472","slide":5,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[104,445,18,24]}
+{"kind":"textbox","id":"sh/ihg76por","slide":5,"text":"Needs an arbitrary amount-based tie-breaker inside an 18.7% alert pool","textPreview":"Needs an arbitrary amount-based tie-breaker inside an 18.7% alert pool","textChars":70,"textLines":1,"bbox":[126,445,368,42]}
+{"kind":"shape","id":"sh/ji9ozupc","slide":5,"bbox":[708,235,500,320]}
+{"kind":"textbox","id":"sh/wvyp4f6l","slide":5,"text":"Phase 2: AI/ML prioritization","textPreview":"Phase 2: AI/ML prioritization","textChars":29,"textLines":1,"bbox":[740,267,370,30]}
+{"kind":"textbox","id":"sh/hw76xk76","slide":5,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[740,325,18,24]}
+{"kind":"textbox","id":"sh/utgn2pof","slide":5,"text":"Scores the combined behavior of each transaction","textPreview":"Scores the combined behavior of each transaction","textChars":48,"textLines":1,"bbox":[762,325,363,42]}
+{"kind":"textbox","id":"sh/vupovap0","slide":5,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[740,375,18,24]}
+{"kind":"textbox","id":"sh/8ry50f6p","slide":5,"text":"Ranks by calibrated P(Fraud) for the fixed top-1% queue","textPreview":"Ranks by calibrated P(Fraud) for the fixed top-1% queue","textChars":55,"textLines":1,"bbox":[762,375,368,42]}
+{"kind":"textbox","id":"sh/9s76tk7a","slide":5,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[740,445,18,24]}
+{"kind":"textbox","id":"sh/pcfehcvm","slide":5,"text":"Improves detection without increasing investigator workload","textPreview":"Improves detection without increasing investigator workload","textChars":59,"textLines":1,"bbox":[762,445,368,42]}
+{"kind":"textbox","id":"sh/ob6d87u1","slide":5,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[594,352,80,60]}
+{"kind":"textbox","id":"sh/naxcf2dg","slide":5,"text":"Fraud prioritization  |  Executive findings  |  05","textPreview":"Fraud prioritization  |  Executive findings  |  05","textChars":50,"textLines":1,"bbox":[72,684,600,18]}
+{"kind":"notes","id":"nt/rcmbx8","slide":5,"text":"[Sources] Analysis: Phase2_Fraud_Prioritization.ipynb (user-provided); no external sources.\nExplain that ML is not replacing domain rules: it is using observed behavior to rank constrained review capacity more efficiently."}
+{"kind":"slide","id":"sl/fnmyns","slide":6,"title":"2. SOLVE","textShapes":20}
+{"kind":"textbox","id":"sh/loj6xcb6","slide":6,"text":"2. SOLVE","textPreview":"2. SOLVE","textChars":8,"textLines":1,"bbox":[72,42,420,24]}
+{"kind":"textbox","id":"sh/yl8nmxcf","slide":6,"text":"Model lifecycle: behavioral evidence","textPreview":"Model lifecycle: behavioral evidence","textChars":36,"textLines":1,"bbox":[72,76,1136,54]}
+{"kind":"textbox","id":"sh/zm1ov2t0","slide":6,"text":"We excluded raw account IDs, engineered auditable behavior features, and kept data roles clean.","textPreview":"We excluded raw account IDs, engineered auditable behavior features, and kept data roles clean.","textChars":95,"textLines":1,"bbox":[72,136,1080,34]}
+{"kind":"shape","id":"sh/cjq5knu9","slide":6,"bbox":[72,184,1136,1]}
+{"kind":"shape","id":"sh/xkz6tsbu","slide":6,"bbox":[72,250,250,265]}
+{"kind":"textbox","id":"sh/ah8nixcj","slide":6,"text":"1","textPreview":"1","textChars":1,"textLines":1,"bbox":[92,270,45,40]}
+{"kind":"textbox","id":"sh/bihor2to","slide":6,"text":"Prepare","textPreview":"Prepare","textChars":7,"textLines":1,"bbox":[92,330,195,30]}
+{"kind":"textbox","id":"sh/wfupwrut","slide":6,"text":"Target: is_fraud\nExclude raw sender/recipient IDs\nStratified 5-fold CV","textPreview":"Target: is_fraud | Exclude raw sender/recipient IDs | Stratified 5-fold CV","textChars":70,"textLines":3,"bbox":[92,385,200,90]}
+{"kind":"textbox","id":"sh/hg365wby","slide":6,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[324,352,30,30]}
+{"kind":"shape","id":"sh/103itgva","slide":6,"bbox":[354,250,250,265]}
+{"kind":"textbox","id":"sh/0zuh0bup","slide":6,"text":"2","textPreview":"2","textChars":1,"textLines":1,"bbox":[374,270,45,40]}
+{"kind":"textbox","id":"sh/zyl0r6d4","slide":6,"text":"Engineer","textPreview":"Engineer","textChars":8,"textLines":1,"bbox":[374,330,195,30]}
+{"kind":"textbox","id":"sh/exczy1cj","slide":6,"text":"Balance changes and errors\nSender-balance-emptied\nAmount-to-balance ratio","textPreview":"Balance changes and errors | Sender-balance-emptied | Amount-to-balance ratio","textChars":73,"textLines":3,"bbox":[374,385,200,90]}
+{"kind":"textbox","id":"sh/dwjipwvy","slide":6,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[606,352,30,30]}
+{"kind":"shape","id":"sh/cbahwrud","slide":6,"bbox":[636,250,250,265]}
+{"kind":"textbox","id":"sh/ra10nmd8","slide":6,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[656,270,45,40]}
+{"kind":"textbox","id":"sh/q9szuhcn","slide":6,"text":"Preprocess","textPreview":"Preprocess","textChars":10,"textLines":1,"bbox":[656,330,195,30]}
+{"kind":"textbox","id":"sh/xsni10vi","slide":6,"text":"Log transforms + scaling for LR\nRaw monetary values for trees\nTransaction type encoding","textPreview":"Log transforms + scaling for LR | Raw monetary values for trees | Transaction type encoding","textChars":87,"textLines":3,"bbox":[656,385,200,90]}
+{"kind":"textbox","id":"sh/w7e18vux","slide":6,"text":"→","textPreview":"→","textChars":1,"textLines":1,"bbox":[888,352,30,30]}
+{"kind":"shape","id":"sh/gn6tk365","slide":6,"bbox":[918,250,250,265]}
+{"kind":"textbox","id":"sh/hofuto7q","slide":6,"text":"4","textPreview":"4","textChars":1,"textLines":1,"bbox":[938,270,45,40]}
+{"kind":"textbox","id":"sh/ul4bitoz","slide":6,"text":"Evaluate","textPreview":"Evaluate","textChars":8,"textLines":1,"bbox":[938,330,195,30]}
+{"kind":"textbox","id":"sh/fmxcrypk","slide":6,"text":"Out-of-fold predictions\nTechnical + business metrics\nTop-1% capacity lens","textPreview":"Out-of-fold predictions | Technical + business metrics | Top-1% capacity lens","textChars":73,"textLines":3,"bbox":[938,385,200,90]}
+{"kind":"textbox","id":"sh/sjmtgj69","slide":6,"text":"The data signal is behavioral—how funds move—not account identity.","textPreview":"The data signal is behavioral—how funds move—not account identity.","textChars":66,"textLines":1,"bbox":[72,565,1100,32]}
+{"kind":"textbox","id":"sh/tkvapo7u","slide":6,"text":"Fraud prioritization  |  Executive findings  |  06","textPreview":"Fraud prioritization  |  Executive findings  |  06","textChars":50,"textLines":1,"bbox":[72,684,600,18]}
+{"kind":"notes","id":"nt/fnmyns","slide":6,"text":"[Sources] Analysis: Phase2_Fraud_Prioritization.ipynb (user-provided); no external sources.\nFeature engineering: sender/recipient balance changes, balance-reconciliation errors, sender_balance_emptied, amount_to_sender_balance, recipient_is_merchant, hour_of_day. Tree feature matrix has 14 columns; LR feature matrix has 18 after encoding."}
+{"kind":"slide","id":"sl/hrdotl","slide":7,"title":"2. SOLVE","textShapes":13}
+{"kind":"textbox","id":"sh/zydoj2ds","slide":7,"text":"2. SOLVE","textPreview":"2. SOLVE","textChars":8,"textLines":1,"bbox":[72,42,420,24]}
+{"kind":"textbox","id":"sh/kzm5s7ed","slide":7,"text":"A simple, interpretable model won the ranking test","textPreview":"A simple, interpretable model won the ranking test","textChars":50,"textLines":1,"bbox":[72,76,1136,54]}
+{"kind":"textbox","id":"sh/l0f6lcvy","slide":7,"text":"Behavioral engineering made the problem close to linearly separable—so Logistic Regression edged the tree-based challengers.","textPreview":"Behavioral engineering made the problem close to linearly separable—so Logistic Regression edged the tree-based challengers.","textChars":124,"textLines":1,"bbox":[72,136,1080,34]}
+{"kind":"shape","id":"sh/a94nmxwb","slide":7,"bbox":[72,184,1136,1]}
+{"kind":"shape","id":"sh/badof2dw","slide":7,"bbox":[72,225,690,360]}
+{"kind":"textbox","id":"sh/cbm5o7eh","slide":7,"text":"OOF precision-recall AUC (higher is better)","textPreview":"OOF precision-recall AUC (higher is better)","textChars":43,"textLines":1,"bbox":[102,250,500,25]}
+{"kind":"shape","id":"sh/u5ony1cf","slide":7,"bbox":[805,225,347,360]}
+{"kind":"textbox","id":"sh/v6xormd0","slide":7,"text":"Why this model","textPreview":"Why this model","textChars":14,"textLines":1,"bbox":[835,256,245,28]}
+{"kind":"textbox","id":"sh/3e5kbu5w","slide":7,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[835,320,18,24]}
+{"kind":"textbox","id":"sh/2dw3ip4b","slide":7,"text":"Highest PR-AUC","textPreview":"Highest PR-AUC","textChars":14,"textLines":1,"bbox":[857,320,218,42]}
+{"kind":"textbox","id":"sh/p072d4n2","slide":7,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[835,375,18,24]}
+{"kind":"textbox","id":"sh/4zylkzmh","slide":7,"text":"100% Recall@1% in OOF","textPreview":"100% Recall@1% in OOF","textChars":21,"textLines":1,"bbox":[857,375,218,42]}
+{"kind":"textbox","id":"sh/b2pkfe58","slide":7,"text":"•","textPreview":"•","textChars":1,"textLines":1,"bbox":[835,430,18,24]}
+{"kind":"textbox","id":"sh/q1g3m94n","slide":7,"text":"Fully interpretable","textPreview":"Fully interpretable","textChars":19,"textLines":1,"bbox":[857,430,218,42]}
+{"kind":"textbox","id":"sh/d47mh4ny","slide":7,"text":"Tree models remain strong challengers if behavior becomes more nonlinear over time.","textPreview":"Tree models remain strong challengers if behavior becomes more nonlinear over time.","textChars":83,"textLines":1,"bbox":[835,490,260,52]}
+{"kind":"textbox","id":"sh/c3ylojmt","slide":7,"text":"Fraud prioritization  |  Executive findings  |  07","textPreview":"Fraud prioritization  |  Executive findings  |  07","textChars":50,"textLines":1,"bbox":[72,684,600,18]}
+{"kind":"chart","id":"ch/d87i14na","slide":7,"name":"","chartType":"bar","bbox":[105,300,600,225]}
+{"kind":"notes","id":"nt/hrdotl","slide":7,"text":"[Sources] Analysis: Phase2_Fraud_Prioritization.ipynb (user-provided); no external sources.\nOOF PR-AUC: Logistic Regression 0.9997, XGBoost 0.9975, LightGBM 0.9970. At top 1%, LR and XGBoost both captured 100% of training fraud; LR selected as simpler and fully interpretable."}
+{"kind":"slide","id":"sl/2mb272","slide":8,"title":"2. SOLVE","textShapes":11}
+{"kind":"textbox","id":"sh/exgny1cr","slide":8,"text":"2. SOLVE","textPreview":"2. SOLVE","textChars":8,"textLines":1,"bbox":[72,42,420,24]}
+{"kind":"textbox","id":"sh/1krm9gbi","slide":8,"text":"Strategy A: rank by fraud probability","textPreview":"Strategy A: rank by fraud probability","textChars":37,"textLines":1,"bbox":[72,76,1136,54]}
+{"kind":"textbox","id":"sh/0jy50bux","slide":8,"text":"At this fraud rate and review capacity, adding transaction value did not create measurable upside.","textPreview":"At this fraud rate and review capacity, adding transaction value did not create measurable upside.","textChars":98,"textLines":1,"bbox":[72,136,1080,34]}
+{"kind":"shape","id":"sh/nm9ob6t8","slide":8,"bbox":[72,184,1136,1]}
+{"kind":"shape","id":"sh/ml0n2lcn","slide":8,"bbox":[72,230,485,300]}
+{"kind":"textbox","id":"sh/9or6dgbe","slide":8,"text":"Strategy A  |  P(Fraud)","textPreview":"Strategy A  |  P(Fraud)","textChars":23,"textLines":1,"bbox":[105,263,330,30]}
+{"kind":"textbox","id":"sh/oni54but","slide":8,"text":"Case-focused and simple","textPreview":"Case-focused and simple","textChars":23,"textLines":1,"bbox":[105,308,300,28]}
+{"kind":"textbox","id":"sh/3q54zmt4","slide":8,"text":"Rank transaction probability directly.\n\nOOF: 654 of 654 fraud cases captured at the top 1%.\n\nRecommended strategy.","textPreview":"Rank transaction probability directly. |  | OOF: 654 of 654 fraud cases captured at the top 1%. |  | Recommended strategy.","textChars":114,"textLines":5,"bbox":[105,362,350,110]}
+{"kind":"shape","id":"sh/ipwnqhcj","slide":8,"bbox":[595,230,485,300]}
+{"kind":"textbox","id":"sh/kfq9k7yx","slide":8,"text":"Strategy B  |  P(Fraud) × Amount","textPreview":"Strategy B  |  P(Fraud) × Amount","textChars":32,"textLines":1,"bbox":[628,263,390,30]}
+{"kind":"textbox","id":"sh/lgzqtcfi","slide":8,"text":"Exposure-weighted","textPreview":"Exposure-weighted","textChars":17,"textLines":1,"bbox":[628,308,300,28]}
+{"kind":"textbox","id":"sh/yd8rixg7","slide":8,"text":"No added value capture in this data regime.\n\nOOF: 652 of 654 fraud cases at the top 1%; value recall still at ceiling.\n\nRevisit if capacity tightens.","textPreview":"No added value capture in this data regime. |  | OOF: 652 of 654 fraud cases at the top 1%; value recall still at ceiling. |  | Revisit i...","textChars":149,"textLines":5,"bbox":[628,362,360,110]}
+{"kind":"textbox","id":"sh/jeh8r2xc","slide":8,"text":"Same 1% investigation queue  •  Strategy A wins on simplicity and case recall","textPreview":"Same 1% investigation queue  •  Strategy A wins on simplicity and case recall","textChars":77,"textLines":1,"bbox":[72,574,1080,28]}
+{"kind":"textbox","id":"sh/83a9ory9","slide":8,"text":"Fraud prioritization  |  Executive findings  |  08","textPreview":"Fraud prioritization  |  Executive findings  |  08","textChars":50,"textLines":1,"bbox":[72,684,600,18]}
+{"kind":"notes","id":"nt/2mb272","slide":8,"text":"[Sources] Analysis: Phase2_Fraud_Prioritization.ipynb (user-provided); no external sources.\nStrategy A OOF: recall@1%=100%, precision@1%=12.85%, value recall=100%, reviews/fraud=7.784. Strategy B OOF: recall@1%=99.69%, value recall=100%, reviews/fraud=7.808. The notebook selected Strategy A."}
+{"kind":"slide","id":"sl/rrdo5x","slide":9,"title":"2. SOLVE","textShapes":10}
+{"kind":"textbox","id":"sh/exsf6p8f","slide":9,"text":"2. SOLVE","textPreview":"2. SOLVE","textChars":8,"textLines":1,"bbox":[72,42,420,24]}
+{"kind":"textbox","id":"sh/10jyhk76","slide":9,"text":"The recommendation holds on the untouched test set","textPreview":"The recommendation holds on the untouched test set","textChars":50,"textLines":1,"bbox":[72,76,1136,54]}
+{"kind":"textbox","id":"sh/0zax8zql","slide":9,"text":"The selected model captures nearly all fraud in the same 1% queue—without using test labels for selection or tuning.","textPreview":"The selected model captures nearly all fraud in the same 1% queue—without using test labels for selection or tuning.","textChars":116,"textLines":1,"bbox":[72,136,1080,34]}
+{"kind":"shape","id":"sh/nmlgjupc","slide":9,"bbox":[72,184,1136,1]}
+{"kind":"shape","id":"sh/mlszap8r","slide":9,"bbox":[72,225,700,360]}
+{"kind":"textbox","id":"sh/9o3yl472","slide":9,"text":"Held-out test performance at a fixed 1% queue","textPreview":"Held-out test performance at a fixed 1% queue","textChars":45,"textLines":1,"bbox":[102,250,520,25]}
+{"kind":"shape","id":"sh/3qhg7aps","slide":9,"bbox":[825,240,300,135]}
+{"kind":"textbox","id":"sh/2p8fy587","slide":9,"text":"+66.3 pts","textPreview":"+66.3 pts","textChars":9,"textLines":1,"bbox":[845,257,260,46]}
+{"kind":"textbox","id":"sh/kry9szip","slide":9,"text":"case-capture lift","textPreview":"case-capture lift","textChars":17,"textLines":1,"bbox":[845,309,260,38]}
+{"kind":"shape","id":"sh/ls7q14za","slide":9,"bbox":[825,405,300,135]}
+{"kind":"textbox","id":"sh/ypgrqp0z","slide":9,"text":"3×","textPreview":"3×","textChars":2,"textLines":1,"bbox":[845,422,260,46]}
+{"kind":"textbox","id":"sh/zqp8zuh4","slide":9,"text":"fewer reviews per fraud","textPreview":"fewer reviews per fraud","textChars":23,"textLines":1,"bbox":[845,474,260,38]}
+{"kind":"textbox","id":"sh/8fi9wzy1","slide":9,"text":"24.0 → 7.9","textPreview":"24.0 → 7.9","textChars":10,"textLines":1,"bbox":[845,505,260,20]}
+{"kind":"textbox","id":"sh/9grq54zm","slide":9,"text":"Fraud prioritization  |  Executive findings  |  09","textPreview":"Fraud prioritization  |  Executive findings  |  09","textChars":50,"textLines":1,"bbox":[72,684,600,18]}
+{"kind":"chart","id":"ch/wr6d4rad","slide":9,"name":"","chartType":"bar","bbox":[105,300,620,220]}
+{"kind":"notes","id":"nt/rrdo5x","slide":9,"text":"[Sources] Analysis: Phase2_Fraud_Prioritization.ipynb (user-provided); no external sources.\nHeld-out test: Logistic Regression + Strategy A: PR-AUC 0.9878, ROC-AUC 0.9928, 161/163 fraud cases caught (98.77%), fraud-value recall 97.91%, reviews/fraud 7.91. Rule: 53/163 (32.52%), value recall 76.28%, reviews/fraud 24.02."}
+{"kind":"slide","id":"sl/nn35cw","slide":10,"title":"3. SUSTAIN","textShapes":13}
+{"kind":"textbox","id":"sh/0fi9gbad","slide":10,"text":"3. SUSTAIN","textPreview":"3. SUSTAIN","textChars":10,"textLines":1,"bbox":[72,42,420,24]}
+{"kind":"textbox","id":"sh/ze98n69s","slide":10,"text":"Stage the rollout from guardrails to a learning hybrid system","textPreview":"Stage the rollout from guardrails to a learning hybrid system","textChars":61,"textLines":1,"bbox":[72,76,1136,54]}
+{"kind":"textbox","id":"sh/et0re1s7","slide":10,"text":"Use the rule as a controlled fallback while ML gains operational trust and new feedback compounds value.","textPreview":"Use the rule as a controlled fallback while ML gains operational trust and new feedback compounds value.","textChars":104,"textLines":1,"bbox":[72,136,1080,34]}
+{"kind":"shape","id":"sh/dsrqlwrm","slide":10,"bbox":[72,184,1136,1]}
+{"kind":"shape","id":"sh/cry9cbah","slide":10,"bbox":[155,250,920,3]}
+{"kind":"shape","id":"sh/rqp8j69w","slide":10,"bbox":[202,240,23,23]}
+{"kind":"shape","id":"sh/qpgra1sb","slide":10,"bbox":[570,240,23,23]}
+{"kind":"shape","id":"sh/po7qhwrq","slide":10,"bbox":[938,240,23,23]}
+{"kind":"shape","id":"sh/4nyp8ra5","slide":10,"bbox":[72,290,330,260]}
+{"kind":"shape","id":"sh/m90zu5wj","slide":10,"bbox":[90,308,86,30]}
+{"kind":"textbox","id":"sh/natgnad4","slide":10,"text":"PHASE 1 • <1 WEEK","textPreview":"PHASE 1 • <1 WEEK","textChars":17,"textLines":1,"bbox":[101,314,65,18]}
+{"kind":"textbox","id":"sh/8b2hwfe9","slide":10,"text":"Instrument & validate","textPreview":"Instrument & validate","textChars":21,"textLines":1,"bbox":[92,360,290,50]}
+{"kind":"textbox","id":"sh/9cbypkvu","slide":10,"text":"Lock the top-1% queue definition. Establish Phase 1 rule as a sanity check/fallback. Confirm investigator workflow and success metrics.","textPreview":"Lock the top-1% queue definition. Establish Phase 1 rule as a sanity check/fallback. Confirm investigator workflow and success metrics.","textChars":135,"textLines":1,"bbox":[92,425,290,98]}
+{"kind":"shape","id":"sh/y50zq5w7","slide":10,"bbox":[475,290,330,260]}
+{"kind":"shape","id":"sh/z69gjads","slide":10,"bbox":[493,308,86,30]}
+{"kind":"textbox","id":"sh/07ihsved","slide":10,"text":"PHASE 2 • MONTH 1–3","textPreview":"PHASE 2 • MONTH 1–3","textChars":19,"textLines":1,"bbox":[504,314,65,18]}
+{"kind":"textbox","id":"sh/l8ryl0vy","slide":10,"text":"Deploy in real time","textPreview":"Deploy in real time","textChars":19,"textLines":1,"bbox":[495,360,290,50]}
+{"kind":"textbox","id":"sh/q1gfmlwb","slide":10,"text":"Operationalize Logistic Regression + Strategy A. Feed the ranked queue to investigators; monitor recall, reviews per fraud, queue latency, and exceptions.","textPreview":"Operationalize Logistic Regression + Strategy A. Feed the ranked queue to investigators; monitor recall, reviews per fraud, queue latency...","textChars":154,"textLines":1,"bbox":[495,425,290,98]}
+{"kind":"shape","id":"sh/b29gfqdw","slide":10,"bbox":[878,290,330,260]}
+{"kind":"shape","id":"sh/fm5wnmto","slide":10,"bbox":[896,308,86,30]}
+{"kind":"textbox","id":"sh/elwvuhc3","slide":10,"text":"PHASE 3 • MONTH 3+","textPreview":"PHASE 3 • MONTH 3+","textChars":18,"textLines":1,"bbox":[907,314,65,18]}
+{"kind":"textbox","id":"sh/18nepwbe","slide":10,"text":"Learn with feedback","textPreview":"Learn with feedback","textChars":19,"textLines":1,"bbox":[898,360,290,50]}
+{"kind":"textbox","id":"sh/g7edwru9","slide":10,"text":"Adopt the hybrid control system: Rules + ML + investigator feedback. Retrain on new labels, test challengers, and tune thresholds as capacity changes.","textPreview":"Adopt the hybrid control system: Rules + ML + investigator feedback. Retrain on new labels, test challengers, and tune thresholds as capa...","textChars":150,"textLines":1,"bbox":[898,425,290,98]}
+{"kind":"textbox","id":"sh/3a5wr6tk","slide":10,"text":"Fraud prioritization  |  Executive findings  |  10","textPreview":"Fraud prioritization  |  Executive findings  |  10","textChars":50,"textLines":1,"bbox":[72,684,600,18]}
+{"kind":"notes","id":"nt/nn35cw","slide":10,"text":"[Sources] Analysis: Phase2_Fraud_Prioritization.ipynb (user-provided); no external sources.\nRollout plan requested by user. Phase 2 uses ML1 / Strategy A for real-time deployment; Phase 3 adopts Rules + ML + Feedback with more labeled data."}
+{"kind":"slide","id":"sl/i60icq","slide":11,"title":"ONE RECOMMENDATION","textShapes":8}
+{"kind":"textbox","id":"sh/axozq9sv","slide":11,"text":"ONE RECOMMENDATION","textPreview":"ONE RECOMMENDATION","textChars":18,"textLines":1,"bbox":[72,66,400,25]}
+{"kind":"textbox","id":"sh/xkfy14rm","slide":11,"text":"Approve a real-time rollout of\nLogistic Regression + Strategy A.","textPreview":"Approve a real-time rollout of | Logistic Regression + Strategy A.","textChars":64,"textLines":2,"bbox":[72,122,800,118]}
+{"kind":"textbox","id":"sh/wj6hsza1","slide":11,"text":"The case is compelling: materially more fraud captured, materially fewer investigations wasted, and an interpretable model that is straightforward to deploy and monitor.","textPreview":"The case is compelling: materially more fraud captured, materially fewer investigations wasted, and an interpretable model that is straig...","textChars":169,"textLines":1,"bbox":[72,300,730,64]}
+{"kind":"shape","id":"sh/nudgvu9k","slide":11,"bbox":[72,420,790,165]}
+{"kind":"textbox","id":"sh/mt4fmpsz","slide":11,"text":"Decision gate","textPreview":"Decision gate","textChars":13,"textLines":1,"bbox":[104,450,190,25]}
+{"kind":"textbox","id":"sh/9wfyx4ra","slide":11,"text":"Launch the probability-ranked top-1% queue, preserve rule-based guardrails, and use investigator outcomes to improve the hybrid system over time.","textPreview":"Launch the probability-ranked top-1% queue, preserve rule-based guardrails, and use investigator outcomes to improve the hybrid system ov...","textChars":145,"textLines":1,"bbox":[104,490,715,58]}
+{"kind":"shape","id":"sh/ov6hozap","slide":11,"bbox":[925,100,240,440]}
+{"kind":"textbox","id":"sh/7qhg7e9o","slide":11,"text":"98.8%","textPreview":"98.8%","textChars":5,"textLines":1,"bbox":[955,175,180,65]}
+{"kind":"textbox","id":"sh/6p8zyts3","slide":11,"text":"of fraud cases caught\nin held-out testing","textPreview":"of fraud cases caught | in held-out testing","textChars":41,"textLines":2,"bbox":[955,252,180,55]}
+{"kind":"shape","id":"sh/cfupcjmp","slide":11,"bbox":[962,340,165,1]}
+{"kind":"textbox","id":"sh/xg36lo3a","slide":11,"text":"1%\nreview capacity","textPreview":"1% | review capacity","textChars":18,"textLines":2,"bbox":[955,375,180,65]}
+{"kind":"notes","id":"nt/i60icq","slide":11,"text":"[Sources] Analysis: Phase2_Fraud_Prioritization.ipynb (user-provided); no external sources.\nClose with the implementation ask: approve the real-time rollout and the feedback loop. The Phase 1 rule remains available as guardrail/fallback."}
